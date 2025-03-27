@@ -1,0 +1,4 @@
+1. Télécharger le fichier zig (si ce n'est pas déja fait)
+2. Insérer le fichier dans le travail demandé.
+3. Le placer dans le dossier "Tools".
+4. Extraire le contenu du fichier.
