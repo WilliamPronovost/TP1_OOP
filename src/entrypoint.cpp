@@ -70,23 +70,8 @@ void raylib_start(void)
         int deadcellsY = 0;
         int totalcellsX = deadcellsX + m_X;
         int totalcellsY = deadcellsY + m_Y;
-        int CountNeighbors(int x, int y)
-        {
-            
-           int count = 0;
-           for (deadcellsY = -1; i <= 1 deadcellsY; deadcellsY++){
-            for(deadcellsX = -1; i <= 1 deadcellsX; deadcellsX++){
-                if(deadcellsX == 0 && deadcellsY == 0){
-                   totalcellsX = NULL;
-                   totalcellsY = NULL;
-                }
-                else{
-                    count == zombies[totalcellsY][totalcellsX];
-                    return count++;
-                }
-            }
-            }
-        }
+        int int x, int y;
+       
         for(int y = 0; y < MAX_ROW;y++){
             for(int x = 0; x < MAX_COL;++x){
                 float offset = (y % 2 == 0) * RECT_SIZE;
